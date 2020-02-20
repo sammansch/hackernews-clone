@@ -9,10 +9,9 @@ import configureStore from './store';
 
 const renderApp = () => {
 
-    
     const store = configureStore({});
 
-    if (ProcessingInstruction.env.NODE_ENV !== 'production') {
+    if (process.env.NODE_ENV !== 'production') {
         console.log('Initial state ->');
         console.log(store.getState());
     }

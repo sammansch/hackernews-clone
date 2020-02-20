@@ -1,7 +1,7 @@
 const NS = '@hnReader/app';
 
 export const actionTypes = {
-    SET_THEME: '${NS}/SET_THEME',
+    SET_THEME: `${NS}/SET_THEME`,
 };
 
 const actions = {
