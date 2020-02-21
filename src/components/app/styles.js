@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { tablet } from '../../styles/mediaQueries';
+import { tablet } from 'styles/mediaQueries';
 
 export const Wrapper = styled.div`
     width: 85%;
