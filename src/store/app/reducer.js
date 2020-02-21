@@ -10,7 +10,7 @@ const app = (state = getInitialState(), { type, payload }) => {
             return {
                 ...state,
                 ...payload,
-            };
+            }
         default:
             return state;
     }
