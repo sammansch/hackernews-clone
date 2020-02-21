@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import { ThemeProvider } from 'styled-components';
-import List from '../List';
-import { colorsDark } from '../../styles/palette';
+import List from 'components/List';
+import { colorsDark } from 'styles/palette';
 
 import { Wrapper, Title } from './styles';
 
