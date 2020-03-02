@@ -6,7 +6,7 @@ const LINK_REL = 'nofollow noreferrer noopener';
 const ListItem = () => {
     return (
         <Item>
-            <ExternalLink href="https://gitconnected.com" rel={LINK_REL} target="_blank">
+            <ExternalLink href="https://www.reddit.com" rel={LINK_REL} target="_blank">
                 <Title>
                     The Developer Community <Host>(gitconnected.com)</Host>
                 </Title>
